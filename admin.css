@@ -1,0 +1,125 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body 
+{
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container 
+{
+    background-color: white;
+    color: black;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+h2 
+{
+    text-align: center;
+    color: #007BFF;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+button 
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button 
+{
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover 
+{
+    background-color: #0056b3;
+}
+
+.header
+{
+    background-color: skyblue;
+    line-height: 70px;
+    padding-left: 30px;
+
+}
+
+a, a:hover
+{
+    text-decoration: none!important;
+}
+
+a 
+{
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover 
+{
+    text-decoration: underline;
+}
+
+.btn 
+{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover 
+{
+    background-color: #0056b3;
+}
+
+table {
+    border-collapse: collapse !important;
+    background: #fff !important;
+    width: 100% !important;
+    color: black !important;
+    font-size: 16px;
+}
+
+table th, table td {
+    border: 1px solid #ddd !important;
+    padding: 10px !important;
+    text-align: left !important;
+    background: none !important;
+}
+
+table th {
+    background: #d4edda !important;
+    color: black !important;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.logout
+{
+    float: right;
+    padding-right: 30px;
+}
